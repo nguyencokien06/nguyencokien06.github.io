@@ -1,7 +1,38 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #70df4c;
+}
 
-        i {
-            color: red; text-decoration: underline;
-        }
-        .special { color: rgb(89, 142, 125);
-            text-transform: uppercase;
-        }
+.container {
+    display: flex;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+  
+}
+
+.info {
+    max-width: 800px;
+}
+
+h1 {
+    color: #0b0909;
+    margin-top: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
